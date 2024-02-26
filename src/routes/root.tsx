@@ -1,7 +1,7 @@
 
 import { Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button } from "@nextui-org/react";
 import Page1 from "../components/page1";
-import logolaure from "../assets/loglaure2.png";
+import logolaure from "../../public/assets/loglaure2.png";
 export default function Root() {
   return (
     <>

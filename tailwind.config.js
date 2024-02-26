@@ -9,9 +9,9 @@ export default {
   ],
   theme: {
     extend: {
-      backgroundImage:{  'provence' : 'url("./src/assets/image-provence.webp")',
-    'fond-provence-logo': 'url("./src/assets/plantemacrodouce.jpg")',
-  'leemon-strawberry': 'url("./src/assets/chemin.jpg")',}
+      backgroundImage:{  'provence' : 'url("./public/assets/image-provence.webp")',
+    'fond-provence-logo': 'url("./public/assets/plantemacrodouce.jpg")',
+  'leemon-strawberry': 'url("./public/assets/chemin.jpg")',}
       
     
     },

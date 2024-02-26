@@ -1,7 +1,7 @@
 import React from "react";
-import logof from "../assets/feuille-logo.png";
-import laureb from "../assets/laureb.jpeg";
-import cardimage from "../assets/seserrentlamainjeune .webp";
+import logof from "../../public/assets/feuille-logo.png";
+import laureb from "../../public/assets/laureb.jpeg";
+import cardimage from "../../public/assets/seserrentlamainjeune .webp";
 
 import { PopupWidget } from "react-calendly";
 import { Button, Card, CardFooter, CardHeader, Image } from "@nextui-org/react";
