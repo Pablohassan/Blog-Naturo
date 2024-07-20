@@ -21,7 +21,7 @@ const Contact: React.FC = () => {
     first: "Laure",
     last: "Name",
     avatar: "https://placekitten.com/g/200/200",
-    twitter: "Mon tweeter",
+    twitter: "Mon",
     notes: "Mon contact",
     favorite: true,
   };

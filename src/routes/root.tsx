@@ -13,7 +13,7 @@ export default function Root() {
           </NavbarBrand>
           <NavbarContent className="hidden sm:flex gap-4 font-black " justify="center">
             <NavbarItem>
-              <Link color="foreground" href={`/contacts/2`}>
+              <Link color="foreground" href={`/blog`}>
                 Blog
               </Link>
             </NavbarItem>

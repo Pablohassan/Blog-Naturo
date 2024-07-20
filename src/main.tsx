@@ -4,6 +4,8 @@ import Root from "./routes/root";
 import ErrorPage from "./components/error-page";
 import Contact from "./components/contact";
 import Page1 from "./components/page1";
+import Blog from "./components/Blog";
+import ArticlesBlog from './components/ArticlesBlog';
 import {NextUIProvider} from '@nextui-org/react'
 import {
   createBrowserRouter,
@@ -16,6 +18,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />,
+    
     errorElement: <ErrorPage />,
   },
   {
@@ -25,6 +28,14 @@ element: <Page1 />,
   {
     path: "contacts/:contactId",
     element: <Contact />,
+  },
+  {
+    path: "blog",   // Ajoutez cette route pour le blog
+    element: <Blog />,
+  },
+  {
+    path: "articles/:articleId",   // Ajoutez cette route pour l'article
+    element: <ArticlesBlog />,
   },
 
 ]);
